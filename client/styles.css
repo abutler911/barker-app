@@ -1,0 +1,57 @@
+body {
+    background-color: #EBEBEB;
+}
+.title {
+    text-align: center;
+    font-size: 40px;
+}
+
+.whisper-form {
+        width: 30%;
+        margin: 0 auto;
+}
+
+.loading-container {
+    text-align: center;
+}
+
+.loading {
+    height: 10%;
+    width: 10%;
+}
+#name {
+    box-shadow: 1px 1px 15px #888888;
+    font-size: 20px;
+}
+#content {
+    box-shadow: 1px 1px 15px #888888;
+    font-size: 20px;
+    color: black;
+}
+
+.whisper-form {
+    font-size: 24px;
+    color: #919191;
+
+}
+
+.whisper-form button {
+    box-shadow: 1px 1px 15px #888888;
+    border-radius: 5px;
+    color: black;
+    background-color: #EBEBEB;
+    border: none;
+}
+
+.whisper-form button:hover {
+    background-color: black;
+    color: white;
+}
+
+.whispers {
+    width: 80%;
+    margin: 0 auto;
+    border: 2px solid red;
+    padding: 10px;
+
+}
