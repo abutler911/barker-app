@@ -1,10 +1,12 @@
+require('dotenv').config();
+
 const express = require('express');
 const cors = require('cors');
 const monk = require('monk');
 
 const app = express();
 
-const db = monk('mongodb+srv://abutler911:sjfd6162@cluster0.dcs48.mongodb.net/whisper?retryWrites=true&w=majority')
+const db = monk('mongodb+srv://DB_NAME:DB_PASSWORD@cluster0.dcs48.mongodb.net/whisper?retryWrites=true&w=majority')
 const whispers = db.get('whispers');
 
 app.use(cors());
